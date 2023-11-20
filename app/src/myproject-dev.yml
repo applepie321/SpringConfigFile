@@ -1,0 +1,19 @@
+server:
+    port: 12100
+
+management:
+    endpoints:
+        web:
+            exposure:
+                include: "*"
+    endpoint:
+        health:
+            show-details: always
+        beans:
+            enabled: true
+        info:
+            enabled: true
+      server:
+          address: localhost
+          port: 12101
+  poly: "big dev"
